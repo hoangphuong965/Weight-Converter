@@ -1,0 +1,27 @@
+body{
+    margin-top: 70px;
+    text-align: center;
+}
+input{
+    width: 500px; 
+    height: 32px;
+}
+
+
+.gram, .kilo, .oz{
+    border: 1px solid;
+    width: 500px;
+    height: 38px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.gram span, .kilo span, .oz span{
+    position: absolute;
+    padding: 10px;
+    margin-left: -16rem;
+
+}
+
+#gramsOutput, #kgOutput, #ozOutput{
+    padding: 10px;
+}
